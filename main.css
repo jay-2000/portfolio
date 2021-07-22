@@ -1,3 +1,7 @@
+
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
 
 h1,
@@ -53,7 +57,7 @@ p {
 
 .link{
   text-decoration: none;
-  color: #007bff;
+  color: #ffdd1f;
   transition: all 0.3s;
 }
 .link:hover{
@@ -222,7 +226,7 @@ p {
     .blog-entry .text .heading a {
       color: #111; }
       .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-        color: #2f89fc; }
+        color: #ffdd1f; }
 
 .blog-entry .meta > div {
   display: inline-block;
@@ -232,3 +236,25 @@ p {
   .blog-entry .meta > div a {
     font-size: 15px;
     color: #8c8c8c; }
+
+     
+#myBtn {
+      display: none; 
+      position: fixed; 
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; 
+      outline: none; 
+      background-color: rgb(68, 71, 255); 
+      color: white; 
+      cursor: pointer; 
+      padding: 15px; 
+      border-radius: 50px; 
+      font-size: 18px; 
+    }
+    
+#myBTN:hover {
+      background-color: #555; /* Add a dark-grey background on hover */
+    }
+    
