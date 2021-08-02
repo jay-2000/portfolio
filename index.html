@@ -9,12 +9,24 @@
     
     <link rel="shortcut icon" href="Jaylogo.png"/> 
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="scripts"   href="up.js">
 </head>
 
 <body>
+    <!--darkmode wala div using js->
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <--darkmode wala div using js ends-->
+
     <button onclick="topFunction()" id="myBtn" class="fas fa-arrow-up"></button>
     <nav class="navbar navbar-expand-sm navbar-light mb-1 ml-5">
         <ul class="navbar-nav">
@@ -23,6 +35,7 @@
             </li>
             
         </ul>
+        <!-- <img src="icons/moon.png" id="icon"> -->
     </nav>
 
     <div class="container">
@@ -261,6 +274,7 @@
 
     <!-- Scripts -->
     <script src="up.js"></script>
+    <script src="darkmode.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
