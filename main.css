@@ -247,7 +247,7 @@ p {
       z-index: 99; /* Make sure it does not overlap */
       border: none; 
       outline: none; 
-      background-color: rgb(68, 71, 255); 
+      background-color: #007bff; 
       color: white; 
       cursor: pointer; 
       padding: 15px; 
